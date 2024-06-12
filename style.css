@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62.5%);
+
+  --brand-primary: #065E7C;
+  --title-primary: #202024;
+  --text-primary: #121214;
+
+  --text-base: 1.6rem;
+  --text-sm: 1.4rem;
+}
+
+html {
+  font: 400 var(--text-base)/160% "Mulish", sans-serif;
+  color: var(--text-primary);
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 2.4rem;
+
+  color: var(--title-primary)
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.text-base {
+  font-size: var(--text-base);
+}
+
+.text-sm {
+  font-size: var(--text-sm);
+}
